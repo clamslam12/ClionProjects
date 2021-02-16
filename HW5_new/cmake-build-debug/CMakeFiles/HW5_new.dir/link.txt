@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/HW5_new.dir/DurbinHW5/LinkedList.cpp.o CMakeFiles/HW5_new.dir/DurbinHW5/main.cpp.o CMakeFiles/HW5_new.dir/LinkedList.cpp.o CMakeFiles/HW5_new.dir/main.cpp.o  -o HW5_new.exe -Wl,--out-implib,libHW5_new.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

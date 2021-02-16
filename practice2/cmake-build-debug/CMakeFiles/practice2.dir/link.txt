@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/practice2.dir/functions.cpp.o CMakeFiles/practice2.dir/main.cpp.o CMakeFiles/practice2.dir/student.cpp.o  -o practice2.exe -Wl,--out-implib,libpractice2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

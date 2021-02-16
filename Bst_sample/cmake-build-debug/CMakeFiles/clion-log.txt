@@ -1,0 +1,16 @@
+C:\Users\clams\.CLion2019.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/Bst_sample"
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    main.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: Bst_sample
+
+
+-- Build files have been written to: /cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/Bst_sample/cmake-build-debug

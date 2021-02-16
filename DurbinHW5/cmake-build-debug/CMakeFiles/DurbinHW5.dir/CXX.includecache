@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/DurbinHW5/LinkedList.h
+iostream
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/DurbinHW5/main.cpp
+iostream
+-
+LinkedList.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/DurbinHW5/LinkedList.h
+

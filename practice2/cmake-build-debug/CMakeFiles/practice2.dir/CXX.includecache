@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice2/functions.h
+iostream
+-
+string
+-
+cstdlib
+-
+string
+-
+fstream
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice2/main.cpp
+iostream
+-
+string
+-
+cstdlib
+-
+string
+-
+fstream
+-
+student.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice2/student.h
+functions.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice2/functions.h
+vector
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice2/student.h
+iostream
+-
+string
+-
+cstdlib
+-
+string
+-
+fstream
+-
+

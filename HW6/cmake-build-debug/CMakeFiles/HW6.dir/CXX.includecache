@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW6/bank.h
+queue
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW6/functions.cpp
+functions.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW6/functions.h
+iostream
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW6/functions.h
+bank.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW6/bank.h
+queue
+-
+stack
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW6/main.cpp
+iostream
+-
+queue
+-
+bank.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW6/bank.h
+functions.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW6/functions.h
+fstream
+-
+stack
+-
+

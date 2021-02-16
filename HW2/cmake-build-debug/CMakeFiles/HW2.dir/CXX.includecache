@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW2/ArrayBag.h
+vector
+-
+string
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW2/Functions (1).h
+stdio.h
+-
+string
+-
+ArrayBag.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW2/ArrayBag.h
+vector
+-
+iostream
+-
+algorithm
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW2/main.cpp
+iostream
+-
+ArrayBag.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW2/ArrayBag.h
+Functions (1).h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW2/Functions (1).h
+fstream
+-
+string
+-
+algorithm
+-
+cstdlib
+-
+vector
+-
+

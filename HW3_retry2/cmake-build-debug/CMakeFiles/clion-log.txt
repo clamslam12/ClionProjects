@@ -1,0 +1,7 @@
+C:\Users\clams\.CLion2018.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW3_retry2"
+CMake Error at CMakeLists.txt:10:
+  Parse error.  Expected "(", got identifier with text "namespace".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW3_retry2/cmake-build-debug/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice/functions.cpp
+iostream
+-
+string
+-
+vector
+-
+cstdlib
+-
+ctime
+-
+cmath
+-
+fstream
+-
+functions.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice/functions.h
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice/functions.h
+iostream
+-
+string
+-
+vector
+-
+cstdlib
+-
+ctime
+-
+cmath
+-
+fstream
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice/game.h
+vector
+-
+iostream
+-
+string
+-
+vector
+-
+cstdlib
+-
+ctime
+-
+cmath
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice/main.cpp
+iostream
+-
+string
+-
+vector
+-
+cstdlib
+-
+ctime
+-
+cmath
+-
+fstream
+-
+game.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice/game.h
+functions.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/practice/functions.h
+

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/MyVector.cpp
+MyVector.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/MyVector.h
+iostream
+-
+list
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/MyVector.h
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/functions.cpp
+iostream
+-
+functions.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/functions.h
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/functions.h
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/main.cpp
+iostream
+-
+MyVector.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/MyVector.h
+MyVector.cpp
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/MyVector.cpp
+functions.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/functions.h
+functions.cpp
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/hw4_test/functions.cpp
+

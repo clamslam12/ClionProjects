@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/final_v2.dir/main.cpp.o CMakeFiles/final_v2.dir/functions.cpp.o CMakeFiles/final_v2.dir/actor_actress.cpp.o CMakeFiles/final_v2.dir/nominations.cpp.o CMakeFiles/final_v2.dir/pictures.cpp.o  -o final_v2.exe -Wl,--out-implib,libfinal_v2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

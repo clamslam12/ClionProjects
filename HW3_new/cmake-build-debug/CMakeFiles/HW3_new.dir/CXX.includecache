@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW3_new/functions.h
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+vehicle.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW3_new/vehicle.h
+string
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW3_new/main.cpp
+iostream
+-
+fstream
+-
+algorithm
+-
+vehicle.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW3_new/vehicle.h
+functions.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW3_new/functions.h
+vector
+-
+string
+-
+cstdlib
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW3_new/vehicle.h
+string
+-
+vector
+-
+string
+-
+

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW4/MyVector.cpp
+MyVector.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW4/MyVector.h
+iostream
+-
+list
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW4/MyVector.h
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW4/functions.h
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW4/main.cpp
+iostream
+-
+MyVector.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW4/MyVector.h
+functions.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/HW4/functions.h
+

@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/actor_actress.h
+iostream
+-
+fstream
+-
+string
+-
+cstdlib
+-
+sstream
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/functions.h
+actor_actress.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/actor_actress.h
+pictures.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/pictures.h
+nominations.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/nominations.h
+string
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+cstdlib
+-
+sstream
+-
+algorithm
+-
+functions.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/functions.h
+actor_actress.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/actor_actress.h
+nominations.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/nominations.h
+pictures.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/pictures.h
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/nominations.h
+iostream
+-
+fstream
+-
+string
+-
+cstdlib
+-
+sstream
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/final_v2/pictures.h
+iostream
+-
+fstream
+-
+string
+-
+cstdlib
+-
+sstream
+-
+

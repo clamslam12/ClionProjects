@@ -1,0 +1,44 @@
+bool LinkedList::insertAtFront(char value) {
+
+    Node* temp = new Node; ///create a temp pointer that points to a new node
+    temp->data = value; ///place value in data of node
+    temp->nextPtr = headPtr; ///make the next pointer of temp pointer point to what head pointer is pointing to
+    headPtr = temp; ///make head pointer point to what temp pointer is pointing to
+
+    return true;
+}
+
+O(1) because all statements in this function are assignment operations and does not care about input size.
+
+
+bool LinkedList::insertAtBack(char value) {
+
+    Node* temp;
+    temp = new Node; ///temp points to new node
+    temp->data = value; ///fill data
+    temp->nextPtr = NULL; /// temp's next pointer points to null
+
+    Node* temp2;
+    temp2 = headPtr; ///temp2 points to what head pointer is pointing to
+
+    if(temp2 == NULL)
+        temp2 = temp;///temp2 points to the same thing as temp
+    else
+    {
+        while(temp2->nextPtr!=NULL)
+            temp2 = temp2->nextPtr; ///advance temp2
+
+        temp2->nextPtr = temp;
+
+    }
+
+    return true;
+
+}
+
+O(n) because there is a while loop inside an else statement, which is constant runtime. So this while loop depends on n nodes for its runtime.
+If n is small it does not have to advance temp2 as much. However if n is big then it will take a while to advance temp2 until it reaches the end of list, depending on n. 
+All of the other statements in this function are assignment operations so they have constant runtime.
+
+
+

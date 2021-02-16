@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/Linkedlist/Node.h
+iostream
+-
+string
+-
+
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/Linkedlist/main.cpp
+iostream
+-
+string
+-
+cstdlib
+-
+Node.h
+/cygdrive/c/Users/clams/OneDrive/Desktop/CLion Project/Linkedlist/Node.h
+

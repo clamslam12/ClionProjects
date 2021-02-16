@@ -1,0 +1,54 @@
+Operator[](int index)
+{ 
+	if(index>max_size)
+    {
+        cout << "out of bounds\n";
+        return A[0]; ///return first element
+    } else
+    {return A[index];}
+
+ = O(1) because this function only returns the value of a A[i] and it does not depend on input size as it always takes constant time to return a value from an array. If statement is O(1). So O(1) + O(1) + O(1) = O(1).
+
+
+pop_back() {
+
+    if(top>=0)
+    {
+        top--;
+
+    }
+    --vsize;
+
+}
+
+= O(1) because it takes contant time to check if top is >= 0, then if true decrement top. Decrement vsize is also O(1). So O(1)*( O(1)) + O(1) = O(1).
+
+push_back(int value) {
+
+    if(top< max_size)
+    {
+        top++;
+        A[top]  = value;
+        vsize++;
+    }
+
+}
+
+= O(1). If statement is O(1) because it only checks if top is < max_size and does not depend on input size. top++ is O(1). A[top] = value is O(1) because it is only assigning value. vsize++ is O(1). So O(1) *( O(1) + O(1) + O(1)) = O(1)
+
+search( int arr_size, int search_value) {
+
+    for(int i=0;i<arr_size;i++)
+    {
+        if(A[i]==search_value)
+        {
+            return i;
+        }
+
+    }
+    return -1;
+
+}
+
+= O(n). The for loop is O(n) because it depends on arr_size. If statement is O(1). Return i is also O(1). So O(n)*(O(1) + O(1)) + O(1) = O(n).
+
